@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:500,700italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Creepster:regular&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,700;1,700&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+/* Стилізаця шапки */
+.blok {
+    font-family: "Creepster", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: right;
+    color: rgba(28, 104, 28, 0.841);
+    text-shadow: 5px 3px 5px rgb(235, 199, 19);
+    line-height: 1.30;
+}
+
+.sub-title>a {
+    text-decoration: underline rgba(28, 104, 28, 0.841);
+}
+
+h1 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(0, 128, 0);
+    text-shadow: 10px 5px 10px rgb(208, 16, 16);
+    line-height: 1.80;
+    text-transform: uppercase;
+}
+
+/* Стилізація тексту першого блоку: Стилі меблів */
+#furniture-styles {
+    font-family: "Rowdies", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(169, 131, 8);
+    line-height: 1.50;
+}
+
+.style {
+    font-size: 22px;
+    color: rgb(106, 89, 3);
+    text-shadow: 1px 0px 10px rgba(244, 192, 6, 0.858);
+    font-style: italic;
+}
+
+/* Експерименти з декорацями */
+#classic {
+    text-decoration: underline;
+}
+
+#modern {
+    /* color: green; */
+    text-decoration: underline double red;
+}
+
+#scandinavian {
+    text-decoration: underline dotted red;
+}
+
+#art-deco {
+    text-decoration: underline wavy red;
+}
+
+#country {
+    text-decoration: line-through double rgba(255, 0, 0, 0.526);
+}
+
+/* Стилізація тексту другого блоку: Дизайн інтер'єру */
+
+#interior-design {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(136, 126, 126);
+    line-height: 1.50;
+}
+
+/* Стилізація тексту третього блоку: Меблі для спальні */
+
+#bedroom {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(7, 122, 44);
+    line-height: 1.50;
+}
+
+
+.sub-title-1,
+.sub-title-2,
+.sub-title-3 {
+    font-family: "Rowdies", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(228, 185, 13);
+    text-shadow: 2px 2px 2px rgb(94, 9, 9);
+    line-height: 1.50;
+    font-style: italic;
+
+}
+
+/* Стилзація кнопки: 'на початок' */
+
+.above {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(211, 43, 1);
+    text-shadow: 1px 0px 10px rgba(94, 9, 9, 0.767);
+    line-height: 1.50;
+    text-decoration: underline rgb(251, 39, 6);
+
+}
+
+/* Стилізація двох останніх блоків з фігми */
+
+#bed>h2.sub-title,
+#living-room>.sub-title {
+    color: #2b2929;
+    font-size: 40px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.20;
+    /* 48/40 */
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.sub-sub-title {
+    color: #2b2929;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.40;
+    /* 28/20 */
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.bed-text1,
+.bed-text2,
+.bed-text3,
+.living-room,
+.list-living-room>.item,
+.list-living-room~p {
+    color: #2b2929;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.875;
+    /* 30/16 */
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.bed-text3 {
+    color: #2b292959;
+}
