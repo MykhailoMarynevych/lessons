@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Moonrocks:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:500&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+/* Стилізаця шапки */
+.lesson-6 {
+    padding: 70px 0;
+    background: beige url(../img/DSC_pikuy2.jpg) center/cover no-repeat scroll;
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks', sans-serif;
+    font-size: 64px;
+    color: rgb(15, 16, 16);
+    text-shadow: 2px -2px 2px crimson;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.list__header,
+.footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    color: goldenrod;
+    text-shadow: 2px -2px 2px brown;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: inherit;
+    margin: 0 auto;
+}
+
+/* ПРАКТИКА використання властивостей CSS: "border","outline","box-shadow","opacity","background" ... */
+
+.properties {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    background-image: url(../img/photo_priroda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+.properties-title {
+    background-color: rgb(151, 204, 116);
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    padding: 50px;
+    margin-bottom: 25px;
+    border-radius: 74% 26% 85% 15% / 43% 41% 59% 57%;
+    border: 5px solid #2b2929;
+    outline: 10px solid #f50707;
+    outline-offset: 3px;
+    box-shadow: inset 5px -5px 10px 5px #ca5252,
+        -5px 5px 20px 20px #571e1e;
+}
+
+.sub-title:hover,
+.properties-title:hover {
+    border: 5px dotted #2b2929;
+}
+
+.sub-title {
+    width: 1000px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    border: 5px solid #2b2929;
+    outline: 10px solid #f50707;
+    outline-offset: 3px;
+    box-shadow: inset 5px -5px 10px 5px #97f688,
+        -5px 5px 20px 20px #3c3002;
+    opacity: 0.5;
+    background: rgb(168, 74, 74) url(../img/patern-3.jpg) 0 0 /auto repeat scroll;
+}
+
+
+.block-1 {
+    background-color: rgb(245, 215, 175);
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 40px;
+    border-top: 30px dotted red;
+    border-right: 30px dashed rgb(208, 248, 8);
+    border-bottom: 30px double darkblue;
+    border-left: 30px solid #7f4242;
+    outline: 20px solid rgb(83, 247, 33);
+    outline-offset: 10px;
+    border-radius: 176px 0px 141px 58px / 82px 25px 125px 0px;
+    background: rgb(8, 251, 41);
+    background: rgb(224, 84, 197);
+    background: linear-gradient(90deg, rgba(224, 84, 197, 1) 0%, rgba(11, 239, 244, 1) 32%, rgba(245, 246, 61, 1) 63%, rgba(19, 8, 239, 1) 100%);
+}
+
+.text-1 {
+    background-color: rgb(173, 169, 163);
+    border: 3px solid red;
+    line-height: 1.5;
+    outline: 10px dotted rgb(83, 247, 33);
+    outline-offset: 3px;
+    border-radius: 176px 0px 141px 58px / 82px 25px 125px 0px;
+}
+
+.picture-1 {
+    width: 1000px;
+    margin-bottom: 50px;
+    border: 10px solid green;
+    margin-bottom: 5px;
+    outline: 10px solid rgb(237, 16, 16);
+    outline-offset: 1px;
+    vertical-align: middle;
+    border-radius: 176px 0px 141px 58px / 82px 25px 125px 0px;
+}
+
+.link-1 {
+    background-color: rgb(247, 19, 7);
+    color: white;
+    border-bottom: 5px solid black;
+    outline: 10px dotted rgb(28, 21, 21);
+    outline-offset: 5px;
+    border-radius: 176px 0px 141px 58px / 82px 25px 125px 0px;
+    padding: 10px;
+}
+
+.link-1:focus {
+    outline: 5px solid rgb(7, 3, 233);
+    border-radius: 176px 0px 141px 58px / 82px 25px 125px 0px;
+}
+
+.text-1:hover,
+.picture-1:hover {
+    border-color: transparent;
+}
+
+.link-1:hover,
+.block-1:hover {
+    border-color: gray
+}
+
+/* ВПРАВА: стрілка на css */
+
+.arrow-bottom {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 100px solid green;
+    border-inline: 50px solid transparent;
+    margin: 20px;
+}
+
+.arrow-block {
+    width: 1155px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+/* Стилізація МАКЕТУ №1: Оформлення вітальні. Які м'які меблі краще вибрати? */
+
+.m-1 {
+    max-width: 1070px;
+    min-height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.m-1-title {
+    color: #2b2929;
+    font-size: 40px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.20;
+    margin-bottom: 40px;
+}
+
+.m-1-img {
+    width: 1070px;
+    height: 380px;
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 40px;
+}
+
+.m-1-text-block,
+.m-1-list {
+    margin-bottom: 40px;
+}
+
+.m-1-text {
+    color: #2b2929;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.875;
+    margin-bottom: 10px;
+}
+
+.m-1-text-bolt {
+    color: #2b2929;
+    font-size: 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.40;
+    margin-bottom: 30px;
+}
+
+.item-mark__i__text {
+    font-size: 0;
+    max-width: 1070px;
+    min-height: 30px;
+    padding-left: 47px;
+    margin-bottom: 20px;
+    background: white url(../img/mark.png) 0 0 / 32px no-repeat scroll;
+}
+
+.item-text {
+    color: #2b2929;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.875;
+}
+
+/* Стилізація МАКЕТУ №2 блок з фіолетовим фоном */
+
+.violet-block {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1440px;
+    height: 530px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+    background: #914cff url(../img/m-2/Holographic_14-2.png) center/ 100% no-repeat scroll;
+    margin-bottom: 100px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 121px;
+    min-height: 530px;
+    background: url(../img/m-2/Number/Alphabet-Patterns.png) 269px -26px / 86% no-repeat scroll,
+        url(../img/m-2/Kid-On-Books-Illustration.png) 730px -16px/ 43% no-repeat scroll,
+        url(../img/m-2/o.png) 544px 115px/ 26px no-repeat scroll,
+        url(../img/m-2/p.png) 680px 200px/ 27px no-repeat scroll;
+}
+
+.container-text {
+    max-width: 600px;
+}
+
+.content-text-1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    line-height: 1.20;
+    margin-bottom: 22px;
+}
+
+.content-text-2 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    line-height: 1.60;
+    margin-bottom: 22px;
+}
+
+.content-text-3 {
+    color: #0d1216;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    line-height: 1.5625;
+    background: url(../img/m-2/Button-Label-redak.png) 0px 3px / 16px no-repeat scroll;
+    padding-left: 20px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px 20px;
+    max-width: 217px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #fff;
+}
+
+/* Стилізація МАКЕТУ №3: Collections */
+
+.collections {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 847px;
+    margin: 0 auto;
+    background:
+        url(../img/m-3-coliections/flower-pattern.png) -28.45px 365.8px/ 1933.88px 372.68px no-repeat scroll,
+        url(../img/m-3-coliections/Rectangle-124.png) 1102px 245px/ 424px 542px no-repeat scroll #f3f4f4;
+    margin-bottom: 50px;
+}
+
+.collections-content {
+    display: inline-block;
+    margin-right: 98px;
+    width: 100%;
+    max-width: 686px;
+    margin-left: 300px;
+    padding-top: 299px;
+}
+
+.collections-text-1 {
+    color: #000;
+    font-size: 74px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    /* line-height: 55px; */
+    margin-bottom: 52px;
+}
+
+.collections-text-2,
+.collections-text-3 {
+    color: #000;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.83.333333;
+    margin-bottom: 9px;
+}
+
+.collections-text-3 {
+    margin-bottom: 66px;
+}
+
+.collections-button {
+    max-width: 223px;
+    min-height: 72px;
+    padding: 19px 26px 19px 64px;
+    background: black url(../img/m-3-coliections/v6-icon.svg) 26px 21px/ 30px no-repeat scroll;
+}
+
+.collections-text-4 {
+    color: #fff;
+    font-size: 29px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.collections-img {
+    margin-top: 225px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 424px;
+    box-sizing: border-box;
+    border-radius: 160px 0 160px 0;
+}
