@@ -1,0 +1,324 @@
+  <!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+		<title>Lesson 7</title>
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="title__header">
+				домашня робота до уроку №7
+			</h1>
+			<ul class="list__header">
+				<li class="item__header">
+					<a href="#game__block-id">Game</a>
+				</li>
+				<li class="item__header">
+					<a href="#experiments-id">Experiments</a>
+				</li>
+				<li class="item__header">
+					<a href="#m-3-title-id">Living room</a>
+				</li>
+				<li class="item__header">
+					<a href="#about-id">About me</a>
+				</li>
+				<li class="item__header">
+					<a href="#contacts_block-id">Contacts</a>
+				</li>
+			</ul>
+		</header>
+		<main class="page">
+
+			<!-- МАКЕТ №1 GAME -->
+			
+			<div class="game__block" id="game__block-id">
+				<h2 class="game_title">Гра знайди мого собаку!</h2>
+			
+				<div class="goto_start">
+					<a href="#" class="goto_start_bottum">Start!</a>
+				</div>
+				<div class="goto goto_1"></div>
+				<div class="goto goto_2"></div>
+				<div class="goto goto_3"></div>
+				<div class="goto goto_4"></div>
+				<div class="goto goto_5"></div>
+				<div class="goto goto_6"></div>
+				<div class="goto goto_7"></div>
+				<div class="goto goto_8"></div>
+				<div class="goto goto_9"></div>
+				<div class="goto goto_10"></div>
+				<div class="goto goto_11"></div>
+				<div class="goto goto_12"></div>
+				<div class="goto_finish">
+					<a href="#goto_finish-target" class="goto_finish_bottum">Finish!</a>
+				</div>
+			</div>
+			<div class="dog_charli" id="goto_finish-target">
+				<div class="block_title">
+					<h2 class="game_title">Ура Ви знайшли мого собаку!!!</h2>
+				</div>
+			</div>
+
+			<!-- МАКЕТ №2 Практика  -->
+			
+			<div class="m-2_experiments" id="experiments-id">
+				<h2 class="m-2_title">Псевдокласи</h2>
+				<h3 class="m-2_title">Псевдокласи стану</h3>
+				<ul class="m-2_list">
+					<li class="m-2_item ">
+						<a href="#experiments-id" class="m-2_bottum bottum_hover">:hover</a>
+					</li>
+					<li class="m-2_item ">
+						<a href="#experiments-id" class="m-2_bottum bottum_active">:active</a>
+					</li>
+					<li class="m-2_item ">
+						<a href="https://sportup.com.ua" class="m-2_bottum bottum_visited">:visited</a>
+					</li>
+					<li class="m-2_item ">
+						<a href="#experiments-id" class="m-2_bottum bottum_focus">:focus</a>
+					</li>
+					<li class="m-2_item ">
+						<a href="#stan-target" class="m-2_bottum bottum_target">:target</a>
+					</li>
+				</ul>
+				<div class="block_stan-target" id="stan-target">
+					<p class="text_stan-target">
+						Мене не завжди видно, але я є у стані "target", і тому при кліку я з'являюсь!
+					</p>
+				</div>
+				<h3 class="m-2_title">Псевдокласи положення у коді</h3>
+				<h4 class="m-2_sub-title">
+					Псевдоклас:last-child
+				</h4>
+				<ul class="m-2_list m-2__list_1">
+					<li class="m-2__item_1">1</li>
+					<li class="m-2__item_1">2</li>
+					<li class="m-2__item_1">3</li>
+					<li class="m-2__item_1">4</li>
+					<li class="m-2__item_1">5</li>
+					<li class="m-2__item_1">6</li>
+					<li class="m-2__item_1">7</li>
+					<li class="m-2__item_1">8</li>
+					<li class="m-2__item_1">9</li>
+					<li class="m-2__item_1">10</li>
+				</ul>
+				<h4 class="m-2_sub-title">
+					Псевдоклас:first-child
+				</h4>
+				<ul class="m-2_list m-2__list_2">
+					<li class="m-2__item_1 ">1</li>
+					<li class="m-2__item_1">2</li>
+					<li class="m-2__item_1">3</li>
+					<li class="m-2__item_1">4</li>
+					<li class="m-2__item_1">5</li>
+					<li class="m-2__item_1">6</li>
+					<li class="m-2__item_1">7</li>
+					<li class="m-2__item_1">8</li>
+					<li class="m-2__item_1">9</li>
+					<li class="m-2__item_1">10</li>
+				</ul>
+				<h4 class="m-2_sub-title">
+					Псевдоклас:not(selector)
+				</h4>
+				<ul class="m-2_list m-2__list_3">
+					<li class="m-2__item_1">1</li>
+					<li class="m-2__item_1">2</li>
+					<li class="m-2__item_1">3</li>
+					<li class="m-2__item_1">4</li>
+					<li class="m-2__item_1">5</li>
+					<li class="m-2__item_1">6</li>
+					<li class="m-2__item_1">7</li>
+					<li class="m-2__item_1">8</li>
+					<li class="m-2__item_1">9</li>
+					<li class="m-2__item_1">10</li>
+				</ul>
+				<h4 class="m-2_sub-title">
+					Псевдоклас:nth-child(an+b)
+				</h4>
+				<ul class="m-2_list m-2__list_4">
+					<li class="m-2__item_1">1</li>
+					<li class="m-2__item_1">2</li>
+					<li class="m-2__item_1">3</li>
+					<li class="m-2__item_1">4</li>
+					<li class="m-2__item_1">5</li>
+					<li class="m-2__item_1">6</li>
+					<li class="m-2__item_1">7</li>
+					<li class="m-2__item_1">8</li>
+					<li class="m-2__item_1">9</li>
+					<li class="m-2__item_1">10</li>
+				</ul>
+			</div>
+
+			<!-- МАКЕТ №3 Оформлення вітальні. Які м'які меблі краще вибрати? -->
+			
+			<div class="m-3">
+				<h2 class="m-3-title" id="m-3-title-id">
+					Оформлення вітальні. Які м'які меблі краще вибрати?
+				</h2>
+				<img class="m-3-img" src="img/living-room.png" alt="Вітальня в сучасному дизайні">
+				<div class="m-3-text-block">
+					<p class="m-3-text">
+						Вітальня – це основна кімната у кожному будинку. Саме вона служить для прийому гостей, проведення часу всією
+						сім'єю та
+						просто для відпочинку у приємній теплій атмосфері. Оформляючи свій будинок та вітальню зокрема, всі
+						намагаються зробити
+						її максимально зручною, комфортною та красивою. Основним та центральним елементом оформлення вітальні, як і
+						будь-якої
+						іншої кімнати, є м'які меблі.
+					</p>
+					<p class="m-3-text">
+						Будь-які меблі для вітальні повинні бути не тільки стильними і красивими, але і функціональними. На таких
+						меблів має
+						бути зручно та приємно відпочивати та приймати гостей. Однак сьогодні існує величезна різноманітність
+						найрізноманітніших
+						м'яких меблів для вітальні, яка підходить для кімнат різних розмірів і форм. На чому варто зупинити свій
+						вибір? Як краще
+						оформити свою вітальню, щоб вам було комфортно, а гості хотіли приходити до вас знову та знову?
+					</p>
+				</div>
+				<p class="m-3-text-bolt">
+					На сайті інтернет магазину Кровато представлено велику різноманітність м'яких меблів для вітальні, серед яких
+					кожен
+					зможе вибрати для себе найбільш вдалий варіант. У нас ви знайдете:
+				</p>
+				<ul class="m-3-list">
+					<li class="item-mark__i__text">
+						<p class="item-text">
+							Прямі дивани. Такі дивани вважаються класикою. Вони підходять для віталень будь-яких форм та розмірів.
+							Прямий диван
+							виглядає стильно та лаконічно, на ньому зручно відпочивати, приймати гостей або навіть спати. Прямі
+							дивани можуть
+							стояти
+							біля стіни, так і в центрі кімнати. Багато моделей прямих диванів легко розкладаються, перетворюючись на
+							повноцінне
+							спальне місце. Також більшість диванів мають великі та місткі ніші, які є додатковим місцем для
+							зберігання;
+						</p>
+					</li>
+					<li class="item-mark__i__text">
+						<p class="item-text">
+							Кутові дивани Кутові дивани вважаються найзручнішими та комфортнішими. Вони ідеально підійдуть для
+							приємного
+							проведення
+							часу в колі сім'ї або друзів. Кутові дивани в основному використовуються для оформлення великих
+							віталень, так як вони
+							займають багато місця, і для кімнат з невеликою площею просто не підійдуть;
+						</p>
+					</li>
+					<li class="item-mark__i__text">
+						<p class="item-text">
+							Тахти. Тахта - це одна з варіацій дивана, але стильніша і мінімалістична. Виглядають тахти дуже незвично
+							і можуть
+							підійти для будь-якого інтер'єру. Також тахти більше ніж звичайні дивани підходять для сну, оскільки в
+							їх основі не
+							пружинні блоки, а дерев'яні ламелі або ортопедичні матраци;
+						</p>
+					</li>
+					<li class="item-mark__i__text">
+						<p class="item-text">
+							Крісла. Крісло – це особливий предмет інтер'єру. Сучасні дизайнери не часто використовують його,
+							вважаючи застарілим,
+							проте саме крісла створюють особливий затишок та комфорт у будь-якій кімнаті. Сьогодні існує величезна
+							різноманітність
+							класичних та сучасних моделей крісел, що дозволяє кожному відшукати ідеальне крісло для свого будинку;
+						</p>
+					</li>
+					<li class="item-mark__i__text">
+						<p class="item-text">
+							Набір меблів. Комплект м'яких меблів – це відмінне рішення для тих, хто хоче меблювати свою вітальню не
+							лише диваном,
+							а
+							й кріслами. Існують набори з одним або двома кріслами, із прямими або кутовими диванами. Основна
+							перевага будь-якого
+							готового меблевого гарнітура – це те, що предмети меблів у ньому ідеально поєднуються один з одним, і
+							вам не потрібно
+							буде витрачати свій час та сили на їхній підбір.
+						</p>
+					</li>
+				</ul>
+				<p class="m-3-text">
+					Підбір м'яких меблів для вітальні – це заняття непросте. Однак при виборі та покупці меблів для своєї вітальні
+					пам'ятайте, що якісні м'які меблі повинні бути не тільки красивими, але й зручними для вас і всіх мешканців
+					вашого
+					будинку.
+				</p>
+			</div>
+
+			<!-- МАКЕТ №4 About me -->
+			
+			<div class="about" id="about-id">
+				<div class="about_container">
+					<h2 class="about_title">
+						About me
+					</h2>
+					<p class="about_text">
+						Welcome to the cinematic realm of Jimmy, where creativity meets technology to craft visually stunning narratives. With a
+						passion for storytelling and a keen eye for detail, I embark on a journey to transform ordinary footage into
+						extraordinary visual experiences.
+					</p>
+				</div>
+				<ul class="about_list">
+					<li class="about_item">
+						Cash cow editing
+					</li>
+					<li class="about_item">
+						Reels editng
+					</li>
+					<li class="about_item">
+						logo animation
+					</li>
+					<li class="about_item">
+						podcast edit
+					</li>
+				</ul>
+			</div>
+
+			 <!-- МАКЕТ №5 contacts  -->
+
+			<div class="contacts_block" id="contacts_block-id">
+				<ul class="contacts_list">
+					<li  class="contacts_item">
+						<a id="call" class="contacts_link"  href="tel:+92455478112">
+							+92 455 478 112
+						</a>
+					</li>
+					<li  class="contacts_item">
+						<a id="location" class="contacts_link" target="_blank" href="https://www.zameen.com/area-guides/lahore/dha-defence/dha-phase-3-1454/">
+							defense phase 3, lahore pakistan
+						</a>
+					</li>
+					<li  class="contacts_item">
+						<a id="emeil" class="contacts_link" href="mailto:videoeditor@gmail.com">
+							videoeditor@gmail.com
+						</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer class="footer">
+			<ul class="list__header">
+				<li class="item__header">
+					<a href="#game__block-id">Game</a>
+				</li>
+				<li class="item__header">
+					<a href="#experiments-id">Experiments</a>
+				</li>
+				<li class="item__header">
+					<a href="#m-3-title-id">Living room</a>
+				</li>
+				<li class="item__header">
+					<a href="#about-id">About me</a>
+				</li>
+				<li class="item__header">
+					<a href="#contacts_block-id">Contacts</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
